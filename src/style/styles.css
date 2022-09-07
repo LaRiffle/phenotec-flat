@@ -66,12 +66,26 @@ body {
     }
 }
 
+@media(max-width:575px) {
+    #nav-carousel {
+        display: none;
+    }
+
+    .page-title {
+        height: 48px;
+    }
+}
+
 /* End Header */
 
 /* Articles */
 
 .article {
     margin-top: 10px;;
+}
+
+.read-pub {
+  font-weight: bold;   
 }
 
 .fa-fake-logo {
